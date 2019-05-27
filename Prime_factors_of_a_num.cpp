@@ -6,7 +6,7 @@ vector<long long int> prime_factor(long long int num){
         while(num%2==0){
             num/=2;
         }
-    factors.push_back(2);
+        factors.push_back(2);
     }
     long long int i=3;
 
