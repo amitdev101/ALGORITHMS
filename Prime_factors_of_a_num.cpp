@@ -14,7 +14,7 @@ vector<long long int> prime_factor(long long int num){
         if(num%i==0){
             while(num%i==0)
                 num/=i;
-        factors.push_back(i);
+            factors.push_back(i);
         }
     }
     if(num>2)
