@@ -5,9 +5,9 @@ int minheap[capacity];
 int size = 0;
 
 void myswap(int *a,int *b){
-    int *temp=a;
-    a = b;
-    b = temp;
+    int temp=*a;
+    *a = *b;
+    *b = temp;
 }
 
 void bubble_up(int i){
@@ -52,12 +52,28 @@ int extract_min(){
     return ans;
 }
 
+void heapsort(int arr[],int n){
+    //size = n
+    for(int i=0;i<n;i++){
+        insert(arr[i]);
+    }
+    for(int i=0;i<n;i++){
+        arr[i]= extract_min();
+    }
+}
+
+void print(int arr[],int n){
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<"\n";
+}
 
 int main(){
-    int arr = {1,0,-1,-3,-4,5,99,2,1,2};
+    int arr[] = {1,0,-1,-3,-4,5,99,2,1,2};
     int n = sizeof(arr)/sizeof(int);
-
-
+    heapsort(arr,n);
+    print(arr,n);
 
     return 0;
 }
