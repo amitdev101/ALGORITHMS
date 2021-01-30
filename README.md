@@ -8,13 +8,14 @@ Keep is short and simple.
 
 ## Algorithms to implement
 
-[x] Heap sort
+- [x] Heap sort
 
-[x] Trie
+- [x] Trie
 
-[x] Hashing
+- [x] Hashing
 
-[ ] Quicksort
+- [ ] Quicksort
 
+<!-- - [x] Keylogger for keyboard -->
 
 Tags : Amit codes
