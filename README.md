@@ -16,6 +16,15 @@ Keep is short and simple.
 
 - [ ] Quicksort
 
+- [ ] Mergesort
+
+- [ ] Timsort
+
+- [ ] 
+
 <!-- - [x] Keylogger for keyboard -->
+
+----------
+
 
 Tags : Amit codes
