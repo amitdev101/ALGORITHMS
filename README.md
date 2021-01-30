@@ -1,5 +1,20 @@
-# ALGORITHMS
-Algorithms for C++ are here.
-# Please contribute and help others so that they can pickup all the basic codes from this respository.
+# Algorithms Repository
 
-# TAGS: AMIT AMIT CODES
+My own implementation of popular algorithms.
+
+Keep is short and simple.
+
+----------
+
+## Algorithms to implement
+
+[x] Heap sort
+
+[x] Trie
+
+[x] Hashing
+
+[ ] Quicksort
+
+
+Tags : Amit codes

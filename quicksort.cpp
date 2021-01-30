@@ -1,1 +1,2 @@
-// this is comment
+// Applying quicksort method
+
