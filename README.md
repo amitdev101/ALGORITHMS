@@ -14,13 +14,14 @@ Keep is short and simple.
 
 - [x] Hashing
 
-- [ ] Quicksort
+- [x] Quicksort
 
 - [ ] Mergesort
 
 - [ ] Timsort
 
-- [ ] 
+- [ ] Insertion sort
+
 
 <!-- - [x] Keylogger for keyboard -->
 
