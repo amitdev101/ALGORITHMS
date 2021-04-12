@@ -1,5 +1,7 @@
 # Algorithms Repository
 
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+
 My own implementation of popular algorithms.
 
 Keep is short and simple.
@@ -21,6 +23,12 @@ Keep is short and simple.
 - [ ] Timsort
 
 - [ ] Insertion sort
+
+- [ ] Binary Heap with database mapping
+
+- [ ] Linked list with dummy node
+
+- [ ] Bitmasking example
 
 
 <!-- - [x] Keylogger for keyboard -->
