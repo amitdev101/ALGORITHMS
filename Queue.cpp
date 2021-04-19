@@ -15,7 +15,7 @@ struct Qdata{
 struct Queue{
     Qdata arr[queuecapacity]; // Allocating array of Qdata
     // or we can use a pointer and then allocating the required nodes via malloc in an init func.
-    // Qdata *ptr; (ptr = (Qdata*)malloc(sizeof(Qdata)); )
+    // Qdata *ptr; (ptr = (Qdata*)malloc(sizeof(Qdata)*capacity); )
     int maxsize;
     int size;
     int front;
@@ -48,13 +48,13 @@ int isfull(Queue* queueptr){
     return 1;
 }
 
-void enqueue(Queue* queueptr, Qdata Qdata){
+int enqueue(Queue* queueptr, Qdata Qdata){
     // set all your Qdata elements into queue
     // here we have taken only mydata of int type 
     // so we copy only this(Qdata.mydata).
     if(isfull(queueptr)){
         print("Queue is full. Cannot add more elements");
-        return;
+        return 0;
     }
     else{
         int maxsize = queueptr->maxsize;
@@ -62,7 +62,7 @@ void enqueue(Queue* queueptr, Qdata Qdata){
         (queueptr->arr)[rear].mydata = Qdata.mydata;
         queueptr->rear = (rear+1)%maxsize;
         queueptr->size++;
-        return;
+        return 1;
     }
 }
 

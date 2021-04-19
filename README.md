@@ -16,6 +16,10 @@ Keep is short and simple.
 
 - [x] Hashing
 
+- [x] Queue
+
+- [x] Stack
+
 - [x] Quicksort
 
 - [ ] Mergesort
@@ -36,4 +40,4 @@ Keep is short and simple.
 ----------
 
 
-Tags : Amit codes
+Tags : Amit codes, amitdev101, 
