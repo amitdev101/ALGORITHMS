@@ -22,7 +22,7 @@ Keep is short and simple.
 
 - [x] Quicksort
 
-- [ ] Mergesort
+- [x] Mergesort
 
 - [ ] Timsort
 
